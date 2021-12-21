@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+#header{
+  display: flex;
+  height: 80px;
+  background-color: white;
+  padding: 8px 12px;
+}
+#header-area{
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.board-list{
+	margin: 0 auto;
+	width: 790px;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	padding: 0px 10px;
+	padding-top: 0px;
+	padding-bottom: 10px;
+    flex-direction: row;
+}
